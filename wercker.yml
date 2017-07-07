@@ -1,4 +1,4 @@
-# box: wercker/ubuntu
+box: nodesource/trusty
 
 build:
     steps:
