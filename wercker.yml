@@ -2,5 +2,11 @@ box: wercker/ubuntu
 
 build:
     steps:
-        make
+        - script:
+            name: make test files
+            code: make
+        - script:
+            name: run test file
+            code: ./test
+
 
