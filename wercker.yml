@@ -1,0 +1,6 @@
+box: wercker/ubuntu
+
+build:
+    steps:
+        make
+
